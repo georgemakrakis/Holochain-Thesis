@@ -1,0 +1,1 @@
+cmd_Release/obj.target/node_dht_sensor.node := g++ -shared -pthread -rdynamic  -Wl,-soname=node_dht_sensor.node -o Release/obj.target/node_dht_sensor.node -Wl,--start-group Release/obj.target/node_dht_sensor/node-dht-sensor.o Release/obj.target/node_dht_sensor/dht-sensor.o -Wl,--end-group -lbcm2835
