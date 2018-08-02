@@ -14,7 +14,7 @@ functions.getAllTexts(function (result) {
         //var timestamp = result[x].Entry.timestamp;
         console.log('Content-->'+content);
 
-        let message = content+','+Date.now();
+        let message = content;
         functions.holoTextWrite(message, function (hash) {
             nextHash = hash;
             console.log('Message-->' + message + ', Hash-->' + nextHash);

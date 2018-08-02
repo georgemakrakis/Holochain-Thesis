@@ -8,7 +8,7 @@ async function writeMultiple()
 
     for (let i = 0; i < 10; i++)
     {
-        let message = i+'';
+        let message = i+','+Date.now();
         let nextHash = '';
 
         await functions.holoTextWrite(message, function (hash) {
