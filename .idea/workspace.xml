@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65bd22bd-ffcb-496a-8a6b-139c5cca36a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJSApp/clear_files" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/clear_files" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +14,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="serviceTimeRTTRead.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serviceTimeRTTRead.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clear_files" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeJSApp/clear_files">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responseTimeWrite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responseTimeRead.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -58,6 +83,7 @@
         <option value="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" />
         <option value="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" />
         <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" />
+        <option value="$PROJECT_DIR$/NodeJSApp/clear_files" />
       </list>
     </option>
   </component>
@@ -98,7 +124,7 @@
               <item name="Holochain-Thesis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Holochain-Thesis" type="462c0819:PsiDirectoryNode" />
               <item name="NodeJSApp" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceTime_RTT" type="462c0819:PsiDirectoryNode" />
+              <item name="ResponseTime" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +260,7 @@
       <workItem from="1532328773810" duration="3657000" />
       <workItem from="1532592881987" duration="610000" />
       <workItem from="1533196142990" duration="602000" />
-      <workItem from="1534157875287" duration="433000" />
+      <workItem from="1534157875287" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Added files for Response Time">
       <created>1532276453748</created>
@@ -271,11 +297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533196734433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Enabled file writing - ready to get metrics">
+      <created>1534158342725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534158342725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14861000" />
+    <option name="totallyTimeSpent" value="14934000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -365,7 +398,8 @@
     <MESSAGE value="Response Time and Service - Round Trip Time now have separated folders" />
     <MESSAGE value="Clear data file now on NodeJSApp folder" />
     <MESSAGE value="More correct RTT implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="More correct RTT implementation" />
+    <MESSAGE value="Enabled file writing - ready to get metrics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enabled file writing - ready to get metrics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,24 +607,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        <state relative-caret-position="277">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="360">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/clear_files">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="18">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
