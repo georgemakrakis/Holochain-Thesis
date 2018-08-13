@@ -17,23 +17,23 @@ async function writeMultiple()
         });
 
         //todo To write to file uncomment getFileReady() and the code below
-        // await fs.appendFile('data_published', message + ',' + Date.now() + '\n', function (err) {
-        //     if (err)
-        //     {
-        //         return console.log(err);
-        //     }
-        // });
+        await fs.appendFile('data_published_responseTime', message + ',' + Date.now() + '\n', function (err) {
+            if (err)
+            {
+                return console.log(err);
+            }
+        });
     }
 }
 
 async function getFileReady(){
-    await fs.writeFile('data_published', '', function (err) {
+    await fs.writeFile('data_published_responseTime', '', function (err) {
         if (err)
         {
             return console.log(err);
         }
     });
-    await fs.appendFile('data_published', 'message_num,time_created' + '\n', function (err) {
+    await fs.appendFile('data_published_responseTime', 'message_num,time_created' + '\n', function (err) {
         if (err)
         {
             return console.log(err);

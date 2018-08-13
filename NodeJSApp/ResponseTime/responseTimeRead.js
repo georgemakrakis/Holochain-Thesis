@@ -16,25 +16,25 @@ functions.getAllTexts(function (result) {
         console.log('Content-->'+content);
 
         //todo To write to file uncomment getFileReady() and the code below
-        // fs.appendFile('data_received', content + ',' + Date.now() + '\n', function (err) {
-        //     if (err)
-        //     {
-        //         return console.log(err);
-        //     }
-        // });
+        fs.appendFile('data_received_responseTime', content + ',' + Date.now() + '\n', function (err) {
+            if (err)
+            {
+                return console.log(err);
+            }
+        });
     }
 
     //console.log('Result-->'+result);
 });
 
 function getFileReady(){
-    fs.writeFile('data_received', '', function (err) {
+    fs.writeFile('data_received_responseTime', '', function (err) {
         if (err)
         {
             return console.log(err);
         }
     });
-    fs.appendFile('data_received', 'message_num,time_created' + '\n', function (err) {
+    fs.appendFile('data_received_responseTime', 'message_num,time_received' + '\n', function (err) {
         if (err)
         {
             return console.log(err);

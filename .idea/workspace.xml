@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="65bd22bd-ffcb-496a-8a6b-139c5cca36a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,35 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="serviceTimeRTTWrite.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="n#!!block;n#getFileReady#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serviceTimeRTTReadAndWrite.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="serviceTimeRTTRead.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="n#!!block;n#getFileReady#0" />
-              </folding>
+            <state relative-caret-position="364">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -76,9 +53,11 @@
         <option value="$PROJECT_DIR$/NodeJSApp/serviceTimeRTTWrite.js" />
         <option value="$PROJECT_DIR$/NodeJSApp/serviceTimeRTTReadAndWrite.js" />
         <option value="$PROJECT_DIR$/NodeJSApp/serviceTimeRTTRead.js" />
-        <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" />
-        <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js" />
         <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js" />
+        <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js" />
+        <option value="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js" />
+        <option value="$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js" />
+        <option value="$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js" />
       </list>
     </option>
   </component>
@@ -92,8 +71,8 @@
     <handled-path value="$PROJECT_DIR$/NodeJSApp/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="7" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
     <option name="height" value="772" />
   </component>
@@ -102,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -116,10 +94,17 @@
               <item name="Holochain-Thesis" type="462c0819:PsiDirectoryNode" />
               <item name="NodeJSApp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Holochain-Thesis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Holochain-Thesis" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJSApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceTime_RTT" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -248,7 +233,8 @@
       <workItem from="1532294453440" duration="771000" />
       <workItem from="1532328773810" duration="3657000" />
       <workItem from="1532592881987" duration="610000" />
-      <workItem from="1533196142990" duration="491000" />
+      <workItem from="1533196142990" duration="602000" />
+      <workItem from="1534157875287" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="Added files for Response Time">
       <created>1532276453748</created>
@@ -278,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532332405125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="More correct RTT implementation">
+      <created>1533196734433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533196734433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14317000" />
+    <option name="totallyTimeSpent" value="14861000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -294,7 +287,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="7" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -305,21 +298,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038433" side_tool="true" weight="0.3298193" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298193" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49961567" weight="0.3298193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -330,34 +323,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="SciView" order="2" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="8" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980783" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980783" />
+      <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,10 +360,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Added files for Response Time" />
     <MESSAGE value="Response Time and Service - Round Trip Time now have separated folders" />
     <MESSAGE value="Clear data file now on NodeJSApp folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear data file now on NodeJSApp folder" />
+    <MESSAGE value="More correct RTT implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="More correct RTT implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,6 +373,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="n#!!block;n#getFileReady#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -403,9 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!block;n#getFileReady#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!block;n#getFileReady#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,20 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -559,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTWrite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="432">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="n#!!block;n#getFileReady#0" />
           </folding>
@@ -569,18 +568,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTReadAndWrite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeRead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSApp/ResponseTime/responseTimeWrite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeJSApp/ServiceTime_RTT/serviceTimeRTTRead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="n#!!block;n#getFileReady#0" />
-          </folding>
+        <state relative-caret-position="364">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
